@@ -25,3 +25,12 @@ You can't use a loop!
 Don't mutate the parameter.
 
 */
+function censor(sentences, word) {
+return sentences.map((element) => element.replace(word, "*".repeat(word.length)))
+}
+console.log(censor([
+  "I love the smell of tacos in the morning.",
+  "Where is my umbrella?",
+  "The test is not a diagnosis of the disease psittacosis.",
+  "Eat tacos every day."
+],"tacos"))

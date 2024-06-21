@@ -13,3 +13,22 @@ Example:
 Don't mutate the parameter.
 
 */
+
+function inverse(array) {
+  if (array === null && array.length === 0) {
+    return [];
+  } else if (array.every((element) => isNaN(element) === false)) {
+  
+
+  for (let i = 0; i < array.length; i++) {
+    array[i] *= -1;
+  }
+  return array;
+}}
+console.log(inverse(["bob",5,-6]));
+
+/*const array = [1, 2, 3, 4, 5]
+for (let i = 0 ; i < array.length ; i++){
+  array[i]*= -1;
+}
+console.log(array)*/
