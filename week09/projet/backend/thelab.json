@@ -1,0 +1,72 @@
+[
+  {
+      "lastname": "Durand",
+      "firstname": "Jean",
+      "email": "jean.durand@example.com",
+      "password": "Jean123!",
+      "birthday": "1990-06-12"
+  },
+  {
+      "lastname": "Lefevre",
+      "firstname": "Marie",
+      "email": "marie.lefevre@example.com",
+      "password": "Marie456!",
+      "birthday": "1985-09-25"
+  },
+  {
+      "lastname": "Moreau",
+      "firstname": "Pierre",
+      "email": "pierre.moreau@example.com",
+      "password": "Pierre789!",
+      "birthday": "1992-11-18"
+  },
+  {
+      "lastname": "Roux",
+      "firstname": "Claire",
+      "email": "claire.roux@example.com",
+      "password": "Claire101!",
+      "birthday": "1988-04-22"
+  },
+  {
+      "lastname": "Simon",
+      "firstname": "Lucie",
+      "email": "lucie.simon@example.com",
+      "password": "Lucie202!",
+      "birthday": "1995-08-30"
+  },
+  {
+      "lastname": "Michel",
+      "firstname": "Hugo",
+      "email": "hugo.michel@example.com",
+      "password": "Hugo303!",
+      "birthday": "1983-10-14"
+  },
+  {
+      "lastname": "Lemoine",
+      "firstname": "Emma",
+      "email": "emma.lemoine@example.com",
+      "password": "Emma404!",
+      "birthday": "1991-01-19"
+  },
+  {
+      "lastname": "Blanc",
+      "firstname": "Louis",
+      "email": "louis.blanc@example.com",
+      "password": "Louis505!",
+      "birthday": "1987-05-13"
+  },
+  {
+      "lastname": "Dumont",
+      "firstname": "Camille",
+      "email": "camille.dumont@example.com",
+      "password": "Camille606!",
+      "birthday": "1993-07-28"
+  },
+  {
+      "lastname": "Perrin",
+      "firstname": "Antoine",
+      "email": "antoine.perrin@example.com",
+      "password": "Antoine707!",
+      "birthday": "1989-02-11"
+  }
+]
