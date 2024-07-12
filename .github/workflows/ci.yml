@@ -20,11 +20,9 @@ jobs:
           npm i
       - name: Run dev front
         run: |
-          cd frontend
           npm run dev-front
       - name: Run dev back
         run: |
-          cd backend
           npm run dev-back
       - name: Cypress run
         uses: cypress-io/github-action@v6
