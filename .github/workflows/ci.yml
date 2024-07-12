@@ -26,8 +26,6 @@ jobs:
         run: |
           npm run dev-front
           
-      - name: Run dev back
-        run: |
           npm run dev-back
       - name: Cypress run
         uses: cypress-io/github-action@v6
