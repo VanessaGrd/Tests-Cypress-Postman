@@ -11,13 +11,13 @@ jobs:
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: install dependencies
-      - uses: npm i 
+      - run: npm i 
 
       - name: run dev front
-      - uses: npm run dev-front
+      - run: npm run dev-front
 
       - name: run dev back
-      - uses: npm run dev-back
+      - run: npm run dev-back
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
